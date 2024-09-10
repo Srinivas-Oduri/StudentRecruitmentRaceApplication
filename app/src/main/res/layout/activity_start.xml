@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dreams"
+    tools:context=".activity.StartActivity">
+
+    <!-- Center image -->
+
+    <LinearLayout
+        android:id="@+id/titleAndLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:gravity="center_vertical"
+            android:text="@string/recruitment_race"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/image"
+            android:src="@drawable/rrrlogo" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/centerImageView"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/image"
+        android:src="@drawable/rbg"
+        app:layout_constraintTop_toBottomOf="@id/titleAndLogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/textView"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <!-- Get Started CardView -->
+
+
+
+
+    <!-- Additional TextView -->
+
+    <!-- Additional TextView 3 -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/get_started_text"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/centerImageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_started"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_button_bg"
+        app:layout_constraintTop_toBottomOf="@id/textView3"
+        android:text="@string/start"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="622dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@drawable/user_item_background"
+    android:layout_margin="8dp"
+    android:elevation="4dp">
+
+    <!-- Rank Section -->
+    <LinearLayout
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingEnd="8dp">
+
+        <TextView
+            android:id="@+id/user_rank_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/user_rank_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rank"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray" />
+    </LinearLayout>
+
+    <!-- Profile Picture Section -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/user_profile_picture"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_vertical"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/CircleImageView"
+        android:background="@drawable/profile_picture_background"
+        android:padding="4dp"
+        android:elevation="2dp" />
+
+    <!-- User Details Section -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingStart="16dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/user_roll_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Roll Number"
+            android:textSize="16sp"
+            android:textColor="@android:color/darker_gray" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Recruitment Race</string>
+    <string name="get_started_text">One can achive their dreams by being competative !</string>
+    <string name="recruitment_race">Recruitment Race</string>
+    <string name="get_started">Can you be that One?? Get started now</string>
+    <string name="image">image des</string>
+    <string name="start">Get Started </string>
+    <string name="you_are_ready_to_be_that_one">You are ready to be that One!!</string>
+    <string name="email_id">Email Id</string>
+    <string name="password">Password\n</string>
+    <string name="Login">Login</string>
+    <string name="or">--------- Or ---------</string>
+    <string name="forgot_password">Forgot password!</string>
+    <string name="login_with_google">Sign up with google</string>
+    <string name="new_here">Not taken the first step</string>
+    <string name="register">Sign up</string>
+    <string name="on_submit_msg">\nCheck you mailbox, you wil recieve an email containing link where you can reset your password</string>
+    <string name="forgot_password_msg">Dont worry! it happens.Please enter the mail address associated with your account</string>
+    <string name="default_web_client_id">204278246551-a96f8sf8cl3olfibov941jpc4g871oli.apps.googleusercontent.com</string>
+    <string name="cgpa_input_field">CGPA input field</string>
+    <string name="about">"The "Recruitment Race Application" is an innovative platform designed to enhance the student recruitment process by providing a comprehensive evaluation of student achievements and fostering a competitive environment among students. The application allows students to create detailed profiles, including a simple bio and a range of accomplishments such as CGPA, global certifications,  normal certifications, and project work. The application assigns specific weightages to different achievements to ensure a balanced assessment: CGPA (40%), global certifications (20%),  normal certifications (15%), and projects (25%). These weighted scores are normalized to generate a rank for each student, facilitating a fair and equitable comparison. Additionally, the application features a dedicated login for placement heads, enabling them to upload information about internships and recruitment opportunities and shortlist candidates based on a comprehensive view of their qualifications. This platform supports a more inclusive and effective recruitment process, aligning student capabilities with recruiter requirements."</string>
+    <string name="note">Note⚠️:Wait until receiving toast \'File uploaded successfully\' to upload another file \'Or\' Update uploads</string>
+    <string name="add">upload information\n</string>
+    <string name="delete">delete upload\n</string>
+</resources>
